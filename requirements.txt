@@ -1,0 +1,1 @@
+pip install torch transformers peft pyarrow scikit-learn matplotlib tqdm
