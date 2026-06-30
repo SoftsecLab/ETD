@@ -5,7 +5,7 @@ import datasets
 SEPARATOR = '<<<SEP>>>'
 
 
-DATASETS = ['writing', 'english', 'german', 'pubmed']
+DATASETS = ['writing', 'english']
 
 def load_dataset(path, name=None, split=None, cache_dir=None):
     # use local model if it exists
